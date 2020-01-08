@@ -35,7 +35,7 @@ soupTitle = ""
 #the title
 title = ""
 def new_post():
-	global blog
+    global blog
     global topPostLink
     global current_link
     html = requests.get(blog)
@@ -113,7 +113,7 @@ def fb_post():
 
 #getting the top link    
 def first_run():
-	global blog
+    global blog
     global topPostLink
     global current_link
     html = requests.get(blog)
