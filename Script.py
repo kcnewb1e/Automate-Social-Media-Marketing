@@ -2,6 +2,7 @@
 #Date: 01/08/19
 #Python3
 
+import requests
 import os
 from selenium import webdriver
 import time
